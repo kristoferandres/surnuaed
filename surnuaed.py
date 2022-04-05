@@ -64,12 +64,12 @@ def printend():
     a()
     print('(1) alusta uuesti mängu')
     print('(2) lahku')
-    choice = int(input('mida teed? '))
+    choice = input('mida teed? ')
     while True:
-        if choice == 1:
-            break
+        if choice == '1':
             reset()
-        elif choice == 2:
+            break
+        elif choice == '2':
             exit()
         else:
             print('\n \n')
@@ -238,6 +238,7 @@ def reset():
     bossfight = 0
     difficulty = 'lühem'
     hitdone = 1
+    print()
     
     menu()
     
@@ -567,6 +568,6 @@ def enemyattack(enemyattackchoicestr):
     
     
     
-lost()
+menu()
 
 
