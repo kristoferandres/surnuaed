@@ -50,6 +50,18 @@ def printend():
     print('lõhud ära ümberkukkunud puu')
     a()
     print('jõudsid elusalt surnuaiast välja ja sammud edasi Haapsalu poole')
+    print('██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗')
+    a()
+    print('╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║')
+    time.sleep(0.2)
+    print('░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║')
+    time.sleep(0.5)
+    print('░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║')
+    a()
+    print('░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║')
+    time.sleep(0.2)
+    print('░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝')
+    a()
     print('(1) alusta uuesti mängu')
     print('(2) lahku')
     choice = int(input('mida teed? '))
@@ -373,6 +385,17 @@ def endfight():
 def lost():
     global fighton
     fighton = 0
+    print('██╗░░░██╗░█████╗░██╗░░░██╗  ██████╗░██╗███████╗██████╗░')
+    time.sleep(0.1)
+    print('╚██╗░██╔╝██╔══██╗██║░░░██║  ██╔══██╗██║██╔════╝██╔══██╗')
+    time.sleep(0.2)
+    print('░╚████╔╝░██║░░██║██║░░░██║  ██║░░██║██║█████╗░░██║░░██║')
+    time.sleep(0.3)
+    print('░░╚██╔╝░░██║░░██║██║░░░██║  ██║░░██║██║██╔══╝░░██║░░██║')
+    time.sleep(0.2)
+    print('░░░██║░░░╚█████╔╝╚██████╔╝  ██████╔╝██║███████╗██████╔╝')
+    time.sleep(0.1)
+    print('░░░╚═╝░░░░╚════╝░░╚═════╝░  ╚═════╝░╚═╝╚══════╝╚═════╝░')
     print('(1) laadi viimane salvestus')
     print('(2) alusta algusest')
     lostchoice = input('Mille valid? ')
@@ -544,6 +567,6 @@ def enemyattack(enemyattackchoicestr):
     
     
     
-menu()
+lost()
 
 
